@@ -23,3 +23,20 @@ The data file for this project can be found [here](words_alpha.txt). This file w
 All data cleaning and analysis occurred in a [Jupyter Notebook](word_study.ipynb) using Python. The initial cleaning steps involved eliminating missing values and checking for duplicates, among a few other minor corrections to the dataframe. The data was then ready for analysis.
 
 ## Findings
+
+### What is the longest word in the English language? (Is it "antidisestablishmentarianism"?)
+When I was in grade school, we were taught that antidisestablishmentarianism is the longest word in the dictionary. Is it true? 
+
+Yeah, sort of. "Antidisestablishmentarianism" is 28 letters long. There are other words that are just as long or longer, but they are the technical names for chemical compounds. In my opinion, those don't really count. 
+
+- hydroxydehydrocorticosterone (28 letters)
+- cyclotrimethylenetrinitramine (29)
+- trinitrophenylmethylnitramine	(29)
+- dichlorodiphenyltrichloroethane	(31)
+
+However, [Merriam-Webster](https://www.merriam-webster.com/grammar/no-antidisestablishmentarianism-is-not-in-the-dictionary) doesn't consider it a real word. Some outlets claim that "floccinaucinihilipilification" (29 letters) is the longest word, but that word didn't appear in the data set used here.
+
+### What is the average number of letters in an English word?
+I found this a bit surprising. As shown above in the bar graph above, the average English word is 9 letters long. (This seems long to me!) Of course, we don't actually use most of those really long words (like antidisestablishmentarianism) in everyday discourse, so these long, rarely used words probably shift the distribution to the right. A distribution of the most commonly used words would certainly show that the average English word is shorter than 9 letters.
+
+
