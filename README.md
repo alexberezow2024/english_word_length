@@ -4,7 +4,7 @@ An analysis of English words by length and number of unique letters. (Python)
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Data Source and Preparation](#data-source-and-preparation)
-- Findings
+- [Findings](#findings)
   - Longest word
   - Average number of letters
   - Words with most unique letters
